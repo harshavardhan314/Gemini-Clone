@@ -1,5 +1,33 @@
-.top img
+.sidebar
 {
-    height: 20px;
+    min-height: 100vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f0f4f9;
+    padding :25px 10px;
+}
+.sidebar img
+{
     width: 20px;
+}
+.sidebar.menu
+{
+    display: block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.New-chat
+{
+    display: inline-flex;
+    margin-top: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    background-color: #e6eaf1;
+    padding: 10px 15px;
+    border-radius: 50px;
+    gap:10px;
+    color: gray;
+    align-items: center;
+
 }
