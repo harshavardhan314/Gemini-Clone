@@ -7,6 +7,10 @@ const Sidebar = () => {
     <div className='sidebar'>
         <div className="top">
             <img src={assets.menu_icon} alt="" />
+            <div className="New-chat">
+                <img src={assets.plus_icon} alt="" />
+                <p>New chat</p>
+            </div>
         </div>
         <div className="bottom"></div>
     </div>
