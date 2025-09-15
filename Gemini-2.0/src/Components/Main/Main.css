@@ -1,14 +1,11 @@
-
-.main
-{
+.main {
     flex: 1;
     min-height: 100vh;
     padding-bottom: 15vh;
     position: relative;
-
 }
-.main .nav
-{
+
+.main .nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,39 +13,53 @@
     padding: 20px;
     color: #585858;
 }
-.main .nav img
-{
-    width: 40px ;
+
+.main .nav img {
+    width: 40px;
     border-radius: 50%;
 }
+
 .main-component {
-    max-width: 900px;
+    max-width: 700px;
     margin: auto;
     text-align: center;
-    height: 80vh;
+    height: 70vh;
     display: flex;
-    justify-content: center; /* Horizontal centering */
-    align-items: center;     /* Vertical centering */
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 80px;
+    gap: 50px;
 }
 
-input
-{
-   width: 800px;
-   height: 70px;
-   border-radius: 5px;
-   box-sizing: border-box;
-   padding: 10px;
-}
-
-.input img{
-    width: 30px;
-    cursor: pointer;
-
-}
-.greet
-{
+.greet {
     font-size: 30px;
     font-weight: 600;
+}
+
+.input-msg {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.input-msg input {
+    flex: 1;
+    min-width: 0;
+    height: 70px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+.input-msg img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background-color: #3B82F6;
+    border-radius: 50%;
+    padding: 10px;
+    object-fit: contain;
 }
