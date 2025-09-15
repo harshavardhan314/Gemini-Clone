@@ -21,3 +21,29 @@
     width: 40px ;
     border-radius: 50%;
 }
+.main-component {
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    height: 80vh;
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center;     /* Vertical centering */
+    flex-direction: column;
+    gap: 80px;
+}
+
+input
+{
+   width: 800px;
+   height: 70px;
+   border-radius: 5px;
+   box-sizing: border-box;
+   padding: 10px;
+}
+
+.input img{
+    width: 30px;
+    cursor: pointer;
+
+}

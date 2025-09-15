@@ -10,6 +10,17 @@ const Main = () => {
             <img src={assets.user_icon} alt="" />
         </div>
 
+        <div className="main-component">
+            <div className="greet">
+                <p><span>Hello, Dev</span></p>
+            </div>
+
+            <div className="input-msg">
+                <input type="Ask Gemini" name="" id=""  placeholder='Ask Gemini'/>
+                <img src={assets.send_icon} alt="Send" />
+            </div>
+
+        </div>
     </div>
   )
 }
