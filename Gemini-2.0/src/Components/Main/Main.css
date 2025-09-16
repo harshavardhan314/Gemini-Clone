@@ -37,15 +37,95 @@
     font-weight: 600;
     padding: 20px;
 }
-.cards
+
+
+.main .greet span
 {
-    display: flex;
-    margin: 40px 30px;
-    gap: 20px;
+    background: -webkit-linear-gradient(  16deg,  #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   
+}
+
+.main .cards
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 15px;
+    padding: 20px;
+}
+
+.main .card
+{
+    height: 200px;
+    padding: 15px;
+    background-color: #f0f4f9;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
     
 }
-.card
+
+.main .card:hover
 {
-    width: 200px;
-    margin: 30px;
+    background-color: #d6dbe1;
+}
+
+.main .card img
+{
+    width: 40px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.main .card p{
+    font-size: 17px;
+    color: #585858;
+
+}
+
+.main-bottom
+{
+    position: absolute;
+    max-width: 900px;
+    bottom: 10;
+    width: 100%;
+    padding: 0% 20px;
+    margin-bottom: 20px;
+
+
+    
+}
+
+
+.search-bar
+{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 10px 20px;
+        background-color: #f0f4f9;
+        border-radius: 40px;
+}
+
+ .icons img{
+    width: 24px;    
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-bar input
+{
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    flex: 1;
+    font-size: 16px;
+    color: #585858;
+    padding: 8px;
+    font-size: 18px;
 }

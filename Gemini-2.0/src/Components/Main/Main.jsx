@@ -19,28 +19,18 @@ const Main = () => {
 
             </div>
 
-            <div className="cards">
+           
 
-                <div className="card">
-                    <p>Suggest Beautiful Places to explore..</p>
-                    <img src={assets.compass_icon} alt="" />
+            <div className="main-bottom">
+                <div className="search-bar">
+                    <input type="text" placeholder="Enter your prompt here!!!" />
+                    <div className='icons'>
+                         <img src={assets.gallery_icon} alt="" />
+                    <img src={assets.mic_icon} alt="" />
+                    <img src={assets.send_icon}alt="" />
+                    </div>
                 </div>
-
-                <div className="card">
-                    <p>Briefly summarize the concept : urban planning</p>
-                    <img src={assets.bulb_icon} alt="" />
-                </div>
-
-                <div className="card">
-                    <p>Brainstrom team bonding activities for our work retreat</p>
-                    <img src={assets.message_icon} alt="" />
-                </div>
-
-                <div className="card">
-                    <p>Improve readability of the following code</p>
-                    <img src={assets.code_icon} alt="" />
-                </div>
-
+                 
             </div>
         </div>
     </div>
