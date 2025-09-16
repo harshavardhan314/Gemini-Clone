@@ -22,3 +22,30 @@
     cursor: pointer;
     border-radius: 50%;
 }
+
+.main-container
+{
+    max-width: 900px;
+    margin: auto;
+}
+
+.main .greet
+{
+    margin: 50px 0px;
+    font-size: 56px;
+    color: #c4c7c5;
+    font-weight: 600;
+    padding: 20px;
+}
+.cards
+{
+    display: flex;
+    margin: 40px 30px;
+    gap: 20px;
+    
+}
+.card
+{
+    width: 200px;
+    margin: 30px;
+}
