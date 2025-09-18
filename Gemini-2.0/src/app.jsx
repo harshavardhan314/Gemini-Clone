@@ -1,14 +1,14 @@
-import React from 'react'
-import Sidebar from './Components/Sidebar/Sidebar'
-import Main from './Components/Main/Main'
+import React from "react";
+import Sidebar from "./components/Sidebar/Sidebar.jsx";
+import Main from "./components/Main/Main.jsx";
 
 const App = () => {
   return (
     <>
-        <Sidebar></Sidebar>
-        <Main></Main>
+      <Sidebar />
+      <Main />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
